@@ -1,0 +1,13 @@
+streamlit
+aioice
+streamlit-webrtc
+tqdm
+scipy
+keras
+torch
+torchvision
+tensorflow
+imageai
+pillow
+av
+opencv-python-headless
