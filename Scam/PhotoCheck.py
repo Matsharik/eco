@@ -10,7 +10,7 @@ detector = CustomObjectDetection()
 
 def analyz():
     detector.setModelTypeAsYOLOv3()
-    detector.setModelPath("pages/yolov3_hololens_mAP-0.11072_epoch-48.pt")
+    detector.setModelPath("pages/yolov3_hololens_mAP-0.19383_epoch-39.pt")
     detector.setJsonPath("pages/hololens_yolov3_detection_config.json")
     detector.loadModel()
     detected_image, detections = detector.detectObjectsFromImage(input_image="Scam/filename.png", output_type="array")
