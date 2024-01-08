@@ -37,7 +37,7 @@ class VideoTransformer(VideoTransformerBase):
         print("init")
         self.detector = CustomObjectDetection()
         self.detector.setModelTypeAsYOLOv3()
-        self.detector.setModelPath("pages/yolov3_hololens_mAP-0.11072_epoch-48.pt")
+        self.detector.setModelPath("pages/yolov3_hololens_mAP-0.19383_epoch-39.pt")
         self.detector.setJsonPath("pages/hololens_yolov3_detection_config.json")
         self.detector.loadModel()
 
