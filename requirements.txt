@@ -11,3 +11,4 @@ imageai
 pillow
 av
 opencv-python-headless
+pyzbar
